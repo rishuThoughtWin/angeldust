@@ -1,0 +1,212 @@
+[
+    {
+      "name": "Your Collection #1",
+      "description": "Remember to replace this description",
+      "image": "https://ipfs.io/ipfs/Qmf2U1Rv1UeUiPypiZB8qwJerMspZWoAoBZ7d9N2QvDwKx",
+      "dna": "911fc9bb6b5789d122ac270acdaf0baf82a79d11",
+      "edition": 1,
+      "date": 1640982904117,
+      "attributes": [
+        {
+          "trait_type": "bg",
+          "value": "sketch1640979542811"
+        },
+        {
+          "trait_type": "person",
+          "value": "sketch1640979607546"
+        },
+        {
+          "trait_type": "face",
+          "value": "sketch1639714131832"
+        },
+        {
+          "trait_type": "eyes",
+          "value": "sketch1640979618890"
+        },
+        {
+          "trait_type": "head",
+          "value": "sketch1640979668226"
+        },
+        {
+          "trait_type": "neck",
+          "value": "sketch1640979651890"
+        }
+      ],
+      "compiler": "HashLips Art Engine"
+    },
+    {
+      "name": "Your Collection #2",
+      "description": "Remember to replace this description",
+      "image": "https://ipfs.io/ipfs/Qmf2U1Rv1UeUiPypiZB8qwJerMspZWoAoBZ7d9N2QvDwKx",
+      "dna": "9bb3cac1ce8bccc3db3de5165b67a8794c419e41",
+      "edition": 2,
+      "date": 1640982904532,
+      "attributes": [
+        {
+          "trait_type": "bg",
+          "value": "sketch1640979542811"
+        },
+        {
+          "trait_type": "person",
+          "value": "sketch1640979600370"
+        },
+        {
+          "trait_type": "face",
+          "value": "sketch1640979640896"
+        },
+        {
+          "trait_type": "eyes",
+          "value": "sketch1640979618890"
+        },
+        {
+          "trait_type": "head",
+          "value": "sketch1640979806488"
+        },
+        {
+          "trait_type": "neck",
+          "value": "sketch1640979629294"
+        }
+      ],
+      "compiler": "HashLips Art Engine"
+    },
+    {
+      "name": "Your Collection #3",
+      "description": "Remember to replace this description",
+      "image": "https://ipfs.io/ipfs/Qmf2U1Rv1UeUiPypiZB8qwJerMspZWoAoBZ7d9N2QvDwKx",
+      "dna": "afc7889dcb937c5c8fef577cb27b3f9de8fa12d4",
+      "edition": 3,
+      "date": 1640982904884,
+      "attributes": [
+        {
+          "trait_type": "bg",
+          "value": "sketch1640979556882"
+        },
+        {
+          "trait_type": "person",
+          "value": "sketch1640979607546"
+        },
+        {
+          "trait_type": "face",
+          "value": "sketch1639714131832"
+        },
+        {
+          "trait_type": "eyes",
+          "value": "sketch1640979623804"
+        },
+        {
+          "trait_type": "head",
+          "value": "sketch1640979806488"
+        },
+        {
+          "trait_type": "neck",
+          "value": "sketch1640979651890"
+        }
+      ],
+      "compiler": "HashLips Art Engine"
+    },
+    {
+      "name": "Your Collection #4",
+      "description": "Remember to replace this description",
+      "image": "https://ipfs.io/ipfs/Qmf2U1Rv1UeUiPypiZB8qwJerMspZWoAoBZ7d9N2QvDwKx",
+      "dna": "859e1aea8a9eafd09fd0161d77617d456951984b",
+      "edition": 4,
+      "date": 1640982905285,
+      "attributes": [
+        {
+          "trait_type": "bg",
+          "value": "sketch1640979542811"
+        },
+        {
+          "trait_type": "person",
+          "value": "sketch1640979600370"
+        },
+        {
+          "trait_type": "face",
+          "value": "sketch1640979640896"
+        },
+        {
+          "trait_type": "eyes",
+          "value": "sketch1640979623804"
+        },
+        {
+          "trait_type": "head",
+          "value": "sketch1640979663062"
+        },
+        {
+          "trait_type": "neck",
+          "value": "sketch1640979645949"
+        }
+      ],
+      "compiler": "HashLips Art Engine"
+    },
+    {
+      "name": "Your Collection #5",
+      "description": "Remember to replace this description",
+      "image": "https://ipfs.io/ipfs/Qmf2U1Rv1UeUiPypiZB8qwJerMspZWoAoBZ7d9N2QvDwKx",
+      "dna": "1fe9f4f122cbb9f8616a320b2084962add399098",
+      "edition": 5,
+      "date": 1640982905682,
+      "attributes": [
+        {
+          "trait_type": "bg",
+          "value": "sketch1640979542811"
+        },
+        {
+          "trait_type": "person",
+          "value": "sketch1640979612674"
+        },
+        {
+          "trait_type": "face",
+          "value": "sketch1640979640896"
+        },
+        {
+          "trait_type": "eyes",
+          "value": "sketch1640979618890"
+        },
+        {
+          "trait_type": "head",
+          "value": "sketch1640979663062"
+        },
+        {
+          "trait_type": "neck",
+          "value": "sketch1640979645949"
+        }
+      ],
+      "compiler": "HashLips Art Engine"
+    },
+    {
+      "name": "Your Collection #6",
+      "description": "Remember to replace this description",
+      "image": "https://ipfs.io/ipfs/Qmf2U1Rv1UeUiPypiZB8qwJerMspZWoAoBZ7d9N2QvDwKx",
+      "dna": "7815284625d30a46f74c0ce12aaca4e4df02571f",
+      "edition": 6,
+      "date": 1640982906066,
+      "attributes": [
+        {
+          "trait_type": "bg",
+          "value": "sketch1640979542811"
+        },
+        {
+          "trait_type": "person",
+          "value": "sketch1640979612674"
+        },
+        {
+          "trait_type": "face",
+          "value": "sketch1639714131832"
+        },
+        {
+          "trait_type": "eyes",
+          "value": "sketch1639714131832"
+        },
+        {
+          "trait_type": "head",
+          "value": "sketch1640979663062"
+        },
+        {
+          "trait_type": "neck",
+          "value": "sketch1640979629294"
+        }
+      ],
+      "compiler": "HashLips Art Engine"
+    }
+  ]

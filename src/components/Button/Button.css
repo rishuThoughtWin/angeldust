@@ -1,0 +1,42 @@
+.button {
+  max-width: 332px;
+  width: 100%;
+  height: 46px;
+  background: linear-gradient(99.44deg, #f7c500 16.86%, #fe7e36 72.72%);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+
+.primary_button {
+  background: linear-gradient(99.44deg, #f7c500 16.86%, #fe7e36 72.72%);
+}
+
+.btn_primary_text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: auto;
+}
+.secondary_button {
+  border-radius: 100px;
+  background: transparent;
+  border: 1px solid;
+  border-color: #fe7e36 #f7c500;
+}
+
+.btn_secondary_text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+}

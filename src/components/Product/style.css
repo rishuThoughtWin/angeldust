@@ -1,0 +1,336 @@
+.product{
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  background-color: var(--bg-purple-color);
+  overflow: hidden;
+  height: 100%;
+}
+.bottom_space_product{
+  margin-bottom: 20px;
+}
+.product_comment {
+  width: 100%;
+  margin-bottom: 0;
+  text-align: left;
+  font-size: 13px;
+  height: 130px;
+  padding: 10px 0px;
+}
+.product_comment_area {
+  background: #1d1d1d;
+  opacity: 1;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: 0;
+  text-align: left;
+  height: 40px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.pick_link {
+  color: white !important;
+  font-weight: 100;
+}
+
+.product_comment1, .product_comment1:hover {
+  display: block;
+  color: #fff;
+  letter-spacing: 0.28px;
+  text-align: left;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.product_comment2, .product_comment2:hover {
+  display: block;
+  color: #ffffff;
+  letter-spacing: 0.28px;
+  text-align: left;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.product_comment3 {
+  display: block;
+  color: white;
+  letter-spacing: 0.28px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.product_comment4 {
+  display: block;
+  position: absolute;
+  color: white;
+  letter-spacing: 0.28px;
+  font-size: 14px;
+  right: 20px;
+  bottom: 70px;
+}
+
+.product_comment5 {
+  display: block;
+  color: var(--text-color-white);
+  letter-spacing: 0.28px;
+  font-size: 13px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.product_comment5 span:nth-child(2), .product_comment5 span:nth-child(3){
+  color: var(--text-color-lighgreen);
+}
+
+
+.product_comment5 span:nth-child(2){
+  max-width: 40%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.product_comment6 {
+  color: #ffffff;
+  letter-spacing: 0.28px;
+  font-size: 14px;
+  display: inline-block;
+  float: right;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.heartIcon {
+  width: 20px;
+  margin-top: -3px;
+}
+.product_image {
+  width: 100%;
+  height: 100%;
+}
+.pick__img {
+  display: block;
+  width: 100%;
+  position: relative;
+  background-color: #000;
+}
+.pick__img:before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  opacity: 0.1;
+  transition: opacity 0.5s ease;
+  z-index: 2;
+}
+.pick__img img {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.pick__img:hover:before {
+  opacity: 0.3;
+}
+.pick__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+  background-color: #222227;
+  border-radius: 0 0 16px 16px;
+  height: 100%;
+  position: relative;
+}
+.pick__category {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  min-width: 70px;
+  width: auto;
+  color: #fff;
+  font-size: 13px;
+  background-color: #6164ff;
+  border-radius: 10px;
+  padding: 0 15px;
+  margin-bottom: 20px;
+  position: absolute;
+  bottom: 100%;
+  left: 20px;
+  z-index: 2;
+}
+.pick__category:hover {
+  color: #fff;
+  background-color: #222227;
+}
+.pick__title {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #fff;
+  margin-bottom: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+.pick__title a {
+  color: #fff;
+  display: block;
+}
+.pick__title a:hover {
+  color: #6164ff;
+}
+.pick__meta {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 20px;
+}
+.pick__date {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 13px;
+  color: #bdbdbd;
+}
+.pick__date svg {
+  fill: #fff;
+  width: 16px;
+  height: auto;
+  margin-right: 5px;
+}
+.pick__comments {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 13px;
+  color: #bdbdbd;
+}
+.pick__comments svg {
+  fill: #fff;
+  width: 16px;
+  height: auto;
+  margin-right: 5px;
+}
+.explore-page .custom-control{
+  z-index: 2;
+  position: absolute;
+  margin: 10px;
+}
+.nft_category1{
+  display: inline-block;
+}
+.nft_category1 a{
+  height: auto !important;
+  bottom: 0px;
+}
+.padding_right_product{
+  padding-right: 5px;
+}
+.market_nft_div .nft_category1{
+  display: inline-block;
+  width:50%;
+}
+/* .loaderSpinner {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin:auto;
+} */
+
+@media only screen and (max-width: 767px){
+  .product .market_nft_div a.buy_button{
+    width: 100%;
+  }
+  .market_nft_div .nft_category1 {
+    display: inline-block;
+    width: 58%;
+}
+.productImgMobile{
+  height: 160px !important;
+}
+.product_comment5 span:nth-child(2){
+  width: 48%;
+}
+}
+
+@media (min-width: 768px) {
+  .pick {
+    height: calc(100% - 30px);
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+  .product_comment5{
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1300px){
+  .product_comment5{
+    font-size: 11px !important;
+  }
+  .market_nft_div .nft_category1 {
+    width: 51%;
+  }
+  .product_comment1{
+    font-size: 11px;
+  }
+}
+
+
+
+@media screen and (orientation:landscape) and (min-device-width: 600px) and (max-device-width: 768px){
+  .product a{
+    height: 235px !important;
+  }
+  .productImgMobile{
+    height: 100% !important;
+  }
+}
+
+.zoom_hover {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.zoom_hover img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.zoom_hover:hover img {
+  transform: scale(1.2);
+}

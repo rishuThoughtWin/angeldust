@@ -1,0 +1,27 @@
+.item-video {
+    width: 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:0px; 
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  .video_height_content{
+    width: 100%!important;
+    overflow: hidden;
+  }
+  .video_height_content .video_height{
+    height: 100% !important;
+  }
+  
+  @media screen and (max-width:767px){
+    .video_height_content .video_height{
+      margin-bottom: 0px !important;
+    }
+  }
+  

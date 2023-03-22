@@ -1,0 +1,36 @@
+
+  
+  /* CHROME */
+  #range {
+    -webkit-appearance: none;
+    outline: none;
+    background: var(--bg-gredient-color) !important;
+    height: 6px;
+    width: 200px;
+    border-radius: 5px;
+  }
+  #range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--bg-gredient-color) !important;
+  }
+  
+  /* FIREFOX */
+  #range::-moz-range-thumb {
+    border: none;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background: var(--bg-gredient-color) !important;
+    cursor: pointer;
+  }
+  
+  #range::-moz-range-track {
+    width: 100%;
+    height: 3px;
+    cursor: pointer;
+    background: lightblue;
+    border-radius: 5px;
+  }

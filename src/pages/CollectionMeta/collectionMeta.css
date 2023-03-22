@@ -1,0 +1,220 @@
+.coll-details {
+  background: #1f1f1f;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+
+.coll-details .image_uploader .container > div {
+  display: flex;
+  background: #101013;
+  border: 0.670833px dashed rgba(255, 255, 255, 0.3);
+  border-radius: 2.68333px;
+  height: 126px;
+  width: 100%;
+}
+
+.upload-imgeprev div{
+  margin: 4px 4px 0px 4px !important;
+}
+
+.text-heading {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+  color: #ffffff;
+  padding-left: 5px;
+}
+.text-heading span {
+  color: red;
+}
+.page_head1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+  color: var(--white-text-color);
+}
+.input_div_collection label {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--white-text-color);
+  opacity: 0.7;
+}
+.select_drop1 {
+  min-width: 110px;
+}
+.select_drop1 select {
+  background-color: transparent !important;
+}
+.select_drop1 .sign__select {
+  background-size: 11px !important;
+  height: 50px;
+}
+.preview_card.card {
+  padding: 0px;
+  background: #272b2d;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 12px !important;
+}
+.preview_card .card_image {
+  height: 221px;
+  width: 100%;
+  overflow: hidden;
+}
+.preview_card .card_image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.preview_card .card-body {
+  padding: 25px 15px;
+}
+.preview_card .card-body p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--white-text-color);
+  opacity: 0.7;
+}
+.preview_card .card-body .link_text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #00a0f4;
+}
+.nft_Detail{
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  color: var(--white-text-color);
+}
+.nft_Detail .nft_name{
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 6px;
+  color: var(--text-primary);
+  text-overflow: ellipsis;
+}
+.nft_Detail .nft_name p{
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.nft_Detail .nft_spam {
+  box-sizing: border-box;
+    display: block;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+}
+.nft_Detail .nft_spam .nft_span{
+  display: block;
+    max-width: 100%;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.nft_Detail .nft_spam .nft_image{
+  inset: 0px;
+  box-sizing: border-box;
+  padding: 1px;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+.nft_Detail .nft_price{
+  display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+.date_picker_input {
+  position: relative;
+}
+.date_picker_input:after {
+  position: absolute;
+  content: "";
+  background-image: url("../../assets/img/calendar.png");
+  height: 24px;
+  width: 24px;
+  right: 17px;
+  top: 14px;
+}
+.input_h_100 {
+  height: 100%;
+}
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+.input_file_div {
+  color: white;
+  border: 1px solid #3c3c3c !important;
+  width: 100%;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .text-heading {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .coll-details {
+    background-color: transparent;
+    padding: 0px;
+    border: none;
+  }
+  .text-heading,
+  .page_head1 {
+    font-size: 16px;
+  }
+  .section_border {
+    border: 1px solid #4f4f4f;
+    width: 100%;
+    margin: 0px 20px 25px;
+  }
+  .mob_box_input {
+    padding: 0px 15px;
+  }
+  .input_h_100 {
+    min-height: 100px;
+  }
+}
+
+.royalties_input {
+  position: relative;
+}
+.royalties_input > span {
+  position: absolute;
+  width: 13px;
+  height: 16px;
+  left: 95px;
+  top: 45px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.input_upload_image input::file-selector-button {
+  border: 0;
+  border-radius: 5px;
+  text-transform: capitalize;
+  color: #000;
+}

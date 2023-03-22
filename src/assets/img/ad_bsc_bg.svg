@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+    <defs>
+        <style>
+            .cls-1{fill:url(#chainGradient_26-2);opacity:.53;}.cls-2{fill:url(#chainGradient_26);opacity:.61;}
+        </style>
+        <radialGradient id="chainGradient_26" cx="283.68" cy="670.03" fx="283.68" fy="670.03" r="406.56"
+                        gradientTransform="translate(1354.55 683.43) rotate(144.69) scale(1.39 1.37) skewX(33.09)"
+                        gradientUnits="userSpaceOnUse">
+            <stop class="chainGradient" offset="0" stop-color="#cde438" stop-opacity=".4"/>
+            <stop offset=".57" stop-color="#000" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="chainGradient_26-2" cx="1402.31" cy="-855.07" fx="1402.31" fy="-855.07" r="643.17"
+                        gradientTransform="translate(1996.35 -849.38) rotate(120.56) scale(.93 .85) skewX(-11.33)"
+                        xlink:href="#chainGradient_26"/>
+    </defs>
+    <ellipse class="cls-2" cx="6.43" cy="512.57" rx="429.85" ry="528.76"
+             transform="translate(-458.53 296.74) rotate(-64.38)"/>
+    <ellipse class="cls-1" cx="1878.73" cy="786.42" rx="284.34" ry="836.48"
+             transform="translate(357.31 2140.43) rotate(-64.38)"/>
+</svg>

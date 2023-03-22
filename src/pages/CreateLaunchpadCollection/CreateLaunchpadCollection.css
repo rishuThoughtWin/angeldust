@@ -1,0 +1,71 @@
+.collection_text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card_new_collection {
+  background-image: url("../../assets/img/newCollectionBg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 371px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_new_collection div {
+  width: 471px;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sub_heading {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+.loader_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.loader_container h2 {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .collection_text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #828282;
+  }
+  .card_new_collection {
+    height: 267px;
+    background-size: contain;
+    overflow: hidden;
+  }
+  .card_new_collection div {
+    width: 100%;
+    padding: 0px 14px;
+  }
+  .card_new_collection .btn_primary_text {
+    width: auto;
+    padding: 0px 34px;
+    height: 44px;
+  }
+}

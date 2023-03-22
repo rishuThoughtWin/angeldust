@@ -1,0 +1,325 @@
+.address_head {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.no-data-found {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.address_para {
+    margin: 20px 0px 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #BDBDBD;
+}
+
+.form_control_same,
+.form_control_same:focus {
+    border: 1px solid #878484;
+    border-radius: 8px;
+    height: 50px;
+    background-color: transparent !important;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    width: 100%;
+    padding: 10px;
+}
+
+.form_control_same::-webkit-input-placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.form_control_same.textarea_height {
+    min-height: 100px;
+}
+
+.address_form h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.btn_submit_address {
+    background: linear-gradient(99.44deg, #F7C500 16.86%, #FE7E36 72.72%);
+    border-radius: 100px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #191A1B;
+}
+
+.btn_submit_address:hover:not(:disabled) {
+    color: black;
+}
+
+.btn_drp {
+    /* margin-top: 10px; */
+    /* padding: 20px; */
+    /* display: flex; */
+    justify-content: center;
+}
+
+/* @media (min-width: 300px) and (max-width: 768px) {
+    .mobpaddissue{
+        padding-left: 0px!important;
+    }
+} */
+.collection_user_main .border_card {
+    border: none !important;
+}
+
+.border_padding_card {
+    padding: 20px;
+}
+
+.collection_user_main .profile_detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0px;
+    border: 1px solid #828282;
+    border-radius: 20px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.collection_user_detail .profile_detail_names {
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--text-grey-color);
+}
+
+.collection_user_detail .profile_detail .col-md-3.col-3 {
+    border-right: 1px solid var(--border-light-grey-color);
+}
+
+.profile_content {
+    padding: 20px 10px;
+}
+
+.profile_content:nth-child(4) {
+    border-right: none;
+}
+
+.detail_content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--white-text-color);
+}
+
+.profile_detail_value {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--white-text-color);
+    margin: 5px;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.collection_user_main .explore__select {
+    background-color: #000;
+}
+
+.under_head {
+    display: inline-block;
+}
+
+.underattack_page {
+    display: inline-block;
+    float: right;
+}
+
+.eth_img {
+    width: 14px;
+    line-height: 21px;
+}
+.cool_time_tab{
+    padding: 0px 20px;
+}
+.cool_time_tab .nav {
+    display: block;
+}
+
+.cool_time_tab .nav-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    display: inline-block;
+}
+
+.cool_time_tab .nav-item .nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--text-color-white);
+    opacity: 0.7;
+    padding: 0px 0px 15px 0px;
+    margin-right: 60px;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    text-transform: capitalize;
+}
+
+.cool_time_tab .nav-item:last-child .nav-link {
+    margin-right: 0px;
+}
+
+.cool_time_tab .nav-item .nav-link:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+.cool_time_tab.nav-item .nav-link.active {
+    font-weight: 700;
+    opacity: 1;
+    border-bottom: 2px solid #ffffff;
+}
+
+.cool_time_tab .nav-item .nav-link.active {
+    font-weight: 700;
+    opacity: 1;
+    border-bottom: 2px solid #ffffff;
+}
+
+@media screen and (max-width:767px) {
+    .approve_content_mob #tab-collection1 .nftCardImageWrapper {
+        height: 150px;
+    }
+
+    .profile_detail_names {
+        margin-bottom: 13px;
+    }
+
+    .address_head {
+        font-size: 20px;
+    }
+
+    .address_para {
+        margin: 0px 0px 40px;
+        font-size: 14px;
+    }
+
+    .collection_user_main .border_card {
+        padding: 0px !important;
+    }
+
+    .hero_detail {
+        padding: 0px !important;
+    }
+
+    .main__author1 {
+        height: 65px;
+    }
+
+    .collection_detail_box .collection_user_box {
+        height: 80px;
+        width: 80px;
+        margin-bottom: 5px;
+    }
+
+    .explorerPanel {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+
+    .admin_margin_explore {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .profile_detail_value {
+        font-size: 14px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .collection_user_detail .profile_detail_names {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .profile_content {
+        padding: 9px 0px;
+    }
+
+    .collection_user_detail .profile_detail .col-md-3.col-3:nth-child(1) {
+        padding-right: 0px;
+    }
+
+    .collection_user_detail .col-md-3.col-3:nth-child(4) .profile_content .profile_detail_names {
+        margin-left: -10px;
+    }
+
+    .collection_user_detail .col-md-3.col-3:nth-child(4) .profile_content .profile_detail_value {
+        margin-left: -10px;
+    }
+
+    .cool_time_tab{
+        padding: 0px 0px;
+    }
+
+    .cool_time_tab .nav-item{
+        margin:0px
+    }
+
+    .cool_time_tab .nav-item .nav-link{
+        margin: 0px 22px 0px 0px;
+        padding-right: 8px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .profile_detail_value {
+        font-size: 15px;
+    }
+
+    .profile_detail_names {
+        font-size: 11px;
+    }
+}
+
+
+@media screen and (max-width:380px) {
+    .collection_user_detail .profile_detail_names {
+        font-size: 9px;
+        line-height: 18px;
+    }
+
+    .collection_user_detail .col-md-3.col-3:nth-child(4) .profile_content .profile_detail_value {
+        margin-left: -14px;
+    }
+
+    .collection_user_detail .col-md-3.col-3:nth-child(4) .profile_content .profile_detail_names {
+        margin-left: -14px;
+    }
+}

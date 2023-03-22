@@ -1,0 +1,35 @@
+{
+    "name": "Your Collection #1",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/1.png",
+    "dna": "911fc9bb6b5789d122ac270acdaf0baf82a79d11",
+    "edition": 1,
+    "date": 1640982904117,
+    "attributes": [
+      {
+        "trait_type": "bg",
+        "value": "sketch1640979542811"
+      },
+      {
+        "trait_type": "person",
+        "value": "sketch1640979607546"
+      },
+      {
+        "trait_type": "face",
+        "value": "sketch1639714131832"
+      },
+      {
+        "trait_type": "eyes",
+        "value": "sketch1640979618890"
+      },
+      {
+        "trait_type": "head",
+        "value": "sketch1640979668226"
+      },
+      {
+        "trait_type": "neck",
+        "value": "sketch1640979651890"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  }

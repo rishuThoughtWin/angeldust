@@ -1,0 +1,105 @@
+.sidebarWrapper {
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: right;
+    z-index: 900;
+    border: 0px !important;
+    overflow-y: auto;
+
+}
+
+
+.sidebarBackground {
+    height: 600px;
+    width: 95%;
+    margin-left: 15px;
+    border-radius: 15px;
+    opacity: .1;
+    position: absolute;
+    background: #b0b0b0;
+    z-index: 901;
+    border: 0px !important;
+    margin-top: 40%;
+
+
+
+
+}
+
+.sidebarBlur {
+    height: 600px;
+    width: 95%;
+    margin-left: 15px;
+    border-radius: 15px;
+    opacity: .8;
+    filter: blur(5px);
+    position: absolute;
+    z-index: 902;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 0px !important;
+    margin-top: 40%;
+
+
+
+
+
+}
+
+.sidebar {
+    height: 600px;
+    background: transparent;
+    width: 95%;
+    margin-left: 25px;
+    border-radius: 15px;
+    opacity: 1;
+    z-index: 903;
+    border: 0px !important;
+    padding-left: 30px;
+    margin-top: 40%;
+
+
+
+}
+
+.sidebarItem {
+    color: #BABABA;
+    margin-bottom: 20px;
+    font-family: Poppins ;
+    display: flex;
+    align-items: center;
+}
+
+.sidebarItem:hover {
+    color: #cde337;
+    margin-bottom: 20px;
+    font-family: Poppins ;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebarItemIcon {
+    font-size: 19px;
+    margin-right: 15px ;
+}
+
+.sidebarItemContent {
+    margin-left: auto;
+}
+
+
+.sidebar-section {
+    color: #BABABA;
+    margin-top: 80px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.connectWalletBtn {
+    margin-bottom: 40px;
+}

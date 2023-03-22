@@ -1,0 +1,86 @@
+.label_name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 57px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+/* .launch_coll {
+  display: grid;
+  grid-template-columns: 25% 1fr;
+  gap: 1rem;
+}
+
+.launch_coll .left_sidebar {
+
+}
+.launch_coll .right_sidebar {
+
+} */
+
+.launch_coll .right_sidebar .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.launch_coll .signIn_card {
+  width: 450px;
+  padding: 46px 20px;
+  background: #1f1f1f;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  margin: 0px 40px 0px;
+  max-width: inherit;
+}
+
+.launch_coll .signIn_card>div {
+  width: 100%;
+  display: block;
+  flex-direction: column;
+  grid-gap: 1rem;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.launch_coll .signIn_card>div>label {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.connect_btn_mask button{
+  max-width: fit-content;
+  padding: 0px 50px;
+  margin-top: 12px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .launch_coll .signIn_card {
+    width: 100%;
+    margin: 50px auto;
+    height: 145px;
+  }
+
+  .launch_coll .signIn_card>div>label {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .launch_coll {
+    grid-template-columns: 1fr;
+  }
+
+  .mobileWidth {
+    max-width: 310px;
+    margin: auto;
+  }
+}

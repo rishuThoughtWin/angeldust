@@ -1,0 +1,105 @@
+.asset__authors {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 7px 12px 2px;
+  }
+  .asset__authors--tab {
+    padding-top: 0;
+    border-top: none;
+  }
+  .asset__authors li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    overflow: hidden;
+    width: 50%;
+  }
+  .asset__authors li span {
+    font-size: 14px;
+    color: var(--text-color-white);
+    margin-bottom: 12px;
+    line-height: 100%;
+    text-transform: uppercase;
+  }
+  .asset__authors li p {
+    font-size: 14px;
+    line-height: 100%;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+  .asset__authors li:last-child {
+    margin-bottom: 0;
+  }
+  .asset__author {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding-bottom: 5px;
+  }
+  .asset__author--verified:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: url("../../assets/img/artists/tick.png") no-repeat center;
+    background-size: 14px auto;
+    z-index: 1;
+    pointer-events: none;
+  }
+  .asset__author img {
+    display: block;
+    overflow: hidden;
+    width: 44px !important;
+    height: 44px;
+    border-radius: 100px;
+    margin-right: 10px;
+    flex-shrink: 0;
+  }
+  .asset__author a {
+    font-weight: 500;
+    color: var(--text-color-skyblue);
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .asset__author a:hover {
+    color: var(--text-color-white);
+  }
+  @media (min-width: 576px) {
+    .asset__authors {
+      flex-direction: row;
+    }
+    .asset__authors li {
+      margin-bottom: 0;
+      margin-right: 60px;
+    }
+    .asset__authors li:last-child {
+      margin-right: 0;
+    }
+    .asset__authors--tab {
+      flex-direction: column;
+    }
+    .asset__authors--tab li {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+    .asset__authors--tab li:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  
+  @media screen and (max-width:567px) {
+    .asset__authors li{
+      width:100%
+    }
+  }

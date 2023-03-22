@@ -1,0 +1,103 @@
+.dropdown_button {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  max-width: 180px;
+  width: 200px;
+  height: 50px;
+  padding: 0 1rem;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.dropdown_button .network_btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+}
+.dropdown_button .network_btn > p {
+  margin: 0;
+}
+.dropdown_button .network_btn > p > img {
+  width: 28px;
+  height: 28px;
+  border-radius: 0.35rem;
+  width: 30px;
+}
+.network_dropdown .absolute_div {
+  z-index: 9999;
+  position: absolute;
+  width: 100%;
+  top: -50px;
+  left: 0;
+}
+.network_dropdown .absolute_div .option_container {
+  background-color: #161719;
+  border: 1px solid #4b4b4b;
+  border-radius: 5px;
+  width: 100%;
+  padding-top: 1rem;
+  margin-top: 3.5rem;
+}
+
+.network_dropdown .absolute_div .option_container .option_button {
+  color: white;
+  background-color: transparent;
+  border-radius: 0px;
+  z-index: 1000;
+  border-radius: 5px;
+  padding: 0 0.5rem;
+  height: 3rem;
+  border: 1px solid rgb(109, 109, 107);
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 0.5rem;
+}
+.network_dropdown .absolute_div .option_container .option_button:hover {
+  color: #fe7e36;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: #fe7e36;
+}
+
+.network_dropdown
+  .absolute_div
+  .option_container
+  .option_button
+  .network_option {
+  display: flex;
+  align-items: center;
+}
+.network_dropdown
+  .absolute_div
+  .option_container
+  .option_button
+  .network_option
+  p {
+  margin: 0;
+}
+
+.network_dropdown
+  .absolute_div
+  .option_container
+  .option_button
+  .network_option
+  p
+  > img {
+  width: 28px;
+  height: 28px;
+  border-radius: 0.35rem;
+  width: 30px;
+}
+.network_dropdown .network_label {
+  margin: 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+}
